@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.container strong {
+  font-size: x-large;
+}
+
+.borderRed {
+  border-top: 10px solid red;
+}
+.borderGreen {
+  border-top: 10px solid green;
+}
+.colorGreen {
+  color: green;
+}
+.colorRed {
+  color: red;
+}
+@media screen and (min-width: 768px) {
+  .box {
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .box {
+    flex-direction: row !important;
+  }
+}
